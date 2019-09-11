@@ -108,7 +108,7 @@ local function HookGossipLines(func, n)
 		for i = start, GossipFrame.buttonIndex - 2 do
 			local level = select((i - start) * n + 2, ...)
 
-			if level > -1 then
+			if type(level) == 'number' and level > -1 then
 				local line = _G['GossipTitleButton'..i]
 				line:SetFormattedText('%s (%d)', line:GetText(), level)
 			end
