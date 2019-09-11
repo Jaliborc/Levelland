@@ -1,10 +1,9 @@
 name: tag
 
-
 on:
   push:
-    #paths:
-    #  - Levelland.toc
+    paths:
+      - Levelland.toc
     branches:
       - master
 
