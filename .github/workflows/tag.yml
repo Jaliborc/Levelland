@@ -15,5 +15,5 @@ tag:
       with:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         source_file: "Levelland.toc"
-        extraction_regex: "\\s*##\\s*Version\\s*:\\s*([\\d\.]+)"
+        extraction_regex: "\\s*##\\s*Version\\s*:\\s*([\\d\\.]+)"
         
