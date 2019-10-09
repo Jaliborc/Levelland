@@ -3,7 +3,7 @@
 ## Notes: Shows the level of quests in the quest log, quest tracker, gossip panel, world map and tooltip links.
 ## Author: Jaliborc (João Cardoso)
 ## X-Category: Quest
-## X-License: GNU General Public License Version 3
+## X-License: All Rights Reserved
 ## Version: 8.2.0
 
 Levelland.lua
